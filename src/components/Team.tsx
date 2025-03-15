@@ -64,7 +64,7 @@ function TeamCard({ member }: { member: any }) {
 
 export default function Team() {
   return (
-    <section id="team" className="py-20 bg-gradient-to-b from-rose-50 to-white relative flex justify-center">
+    <section id="team" className="py-20 bg-gradient-to-b from-rose-50 to-white relative flex justify-center px-4">
       {/* Static background element */}
       <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-96 h-96 bg-rose-200/20 rounded-full blur-3xl" />
 

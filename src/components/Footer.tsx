@@ -9,7 +9,7 @@ const socialIcons = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-gray-900 to-gray-800 flex justify-center">
+    <footer className="bg-gradient-to-b from-gray-900 to-gray-800 flex justify-center px-4">
       <div className="container py-12 sm:py-16">
         <div className="grid md:grid-cols-4 gap-8 mb-8 sm:mb-12">
           {/* Brand Column */}

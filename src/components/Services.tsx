@@ -21,7 +21,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 bg-gradient-to-b from-rose-50 to-white relative flex justify-center">
+    <section id="services" className="py-20 bg-gradient-to-b from-rose-50 to-white relative flex justify-center px-4">
       {/* Static background elements */}
       <div className="absolute -top-32 -right-32 w-64 h-64 bg-rose-200/20 rounded-full blur-3xl" />
       <div className="absolute -bottom-16 -left-16 w-72 h-72 bg-pink-200/20 rounded-full blur-3xl" />

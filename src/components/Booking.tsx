@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 export default function Booking() {
   return (
-    <section className="py-20 bg-gradient-to-b from-rose-50 to-white relative flex justify-center">
+    <section className="py-20 bg-gradient-to-b from-rose-50 to-white relative flex justify-center px-4">
       <div className="container relative z-10">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}

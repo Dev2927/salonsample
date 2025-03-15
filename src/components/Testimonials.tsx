@@ -55,7 +55,7 @@ function TestimonialCard({ testimonial }: { testimonial: any }) {
 
 export default function Testimonials() {
   return (
-    <section className="py-20 bg-gradient-to-b from-rose-50 to-white relative flex justify-center">
+    <section className="py-20 bg-gradient-to-b from-rose-50 to-white relative flex justify-center px-4">
       <div className="container relative z-10">
         <div className="text-center mb-16">
           <div className="inline-block relative">

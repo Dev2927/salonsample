@@ -1,15 +1,17 @@
 import { motion } from "framer-motion";
+import team1 from '../assets/team1.jpeg'
+import team2 from '../assets/team2.jpeg'
 
 const testimonials = [
   {
     name: "Sarah Johnson",
     text: "Best salon experience ever! The stylists are truly artists.",
-    avatar: "/avatar1.jpg",
+    avatar: team1
   },
   {
     name: "Emma Davis",
     text: "My go-to place for relaxation and beauty treatments.",
-    avatar: "/avatar2.jpg",
+    avatar: team2
   },
 ];
 

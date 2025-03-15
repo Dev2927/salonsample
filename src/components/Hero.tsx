@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
+import heroSalon from '../assets/heroSalon.jpeg'
 
 export default function Hero() {
   return (
@@ -56,7 +57,7 @@ export default function Hero() {
         >
           <div className="relative aspect-square rounded-2xl overflow-hidden bg-rose-100 border-8 border-white shadow-xl">
             <img
-              src="/salon-hero.jpg"
+              src={heroSalon}
               alt="Salon"
               className="object-cover w-full h-full scale-105"
             />

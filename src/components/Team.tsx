@@ -1,24 +1,27 @@
 import { motion } from "framer-motion";
 import { Card } from "./ui/card";
+import team1 from '../assets/team1.jpeg'
+import team2 from '../assets/team2.jpeg'
+import team3 from '../assets/team3.jpeg'
 
 const team = [
   {
     name: "Emma Wilson",
     role: "Lead Stylist",
     bio: "10+ years experience in creative hair design",
-    image: "/team-1.jpg",
+    image: team1
   },
   {
     name: "Sophia Rodriguez",
     role: "Skincare Expert",
     bio: "Certified dermatology specialist",
-    image: "/team-2.jpg",
+    image: team2
   },
   {
     name: "Liam Johnson",
     role: "Nail Artist",
     bio: "Master of intricate nail designs",
-    image: "/team-3.jpg",
+    image: team3
   },
 ];
 
